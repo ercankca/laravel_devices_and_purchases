@@ -44,6 +44,7 @@
 </tr>
 </tbody>
 </table>
+
 # Running the tests
 
 `vendor/bin/phpunit`
