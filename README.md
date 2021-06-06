@@ -16,10 +16,33 @@
  `composer install` 
  
   `php artisan migrate` 
+  
+  `php artisan migrate --seed` 
  
 `php artisan key:generate`
 
-
+# Routing 
+<table>
+<thead>
+<tr>
+<th>Provider</th>
+<th>URI</th>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Google Play</td>
+<td><code>/purchases/subscriptions/google</code></td>
+<td><code>purchase.serverNotifications.google</code></td>
+</tr>
+<tr>
+<td>App Store</td>
+<td><code>/purchases/subscriptions/apple</code></td>
+<td><code>purchase.serverNotifications.apple</code></td>
+</tr>
+</tbody>
+</table>
 # Running the tests
 
 `vendor/bin/phpunit`
