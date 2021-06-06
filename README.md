@@ -22,6 +22,7 @@
 `php artisan key:generate`
 
 # Routing 
+
 <table>
 <thead>
 <tr>
@@ -43,6 +44,7 @@
 </tr>
 </tbody>
 </table>
+
 # Running the tests
 
 `vendor/bin/phpunit`
