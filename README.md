@@ -22,6 +22,7 @@
 `php artisan key:generate`
 
 # Routing 
+
 <table>
 <thead>
 <tr>
